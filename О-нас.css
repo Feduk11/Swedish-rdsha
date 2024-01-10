@@ -1,3 +1,77 @@
 .u-section-1 .u-sheet-1 {
-  min-height: 400px;
+  min-height: 866px;
+}
+
+.u-section-1 .u-text-1 {
+  font-size: 2.25rem;
+  margin: 11px 70px 0;
+}
+
+.u-section-1 .u-text-2 {
+  font-style: italic;
+  font-size: 1.125rem;
+  line-height: 1.4;
+  margin: 11px 452px 0 80px;
+}
+
+.u-section-1 .u-image-1 {
+  width: 403px;
+  height: 403px;
+  object-position: 100% 84.16%;
+  background-image: url("images/nas.jpg");
+  background-position: 50% 100%;
+  margin: -403px 24px 0 auto;
+}
+
+.u-section-1 .u-text-3 {
+  font-size: 1.125rem;
+  font-style: italic;
+  line-height: 1.4;
+  margin: 33px 17px 33px 80px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-text-1 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: 332px;
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-image-1 {
+    margin-top: 20px;
+    --radius: 10px;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-text-2 {
+    margin-right: 112px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-text-2 {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 803px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 340px;
+    height: 340px;
+    margin-right: 0;
+  }
 }
